@@ -8,3 +8,7 @@ __pycache__/
 # 系统垃圾文件
 .DS_Store
 Thumbs.db
+
+# rbot/ 是上游开源仓库 rlxai/rbot 的本地克隆（自带 .git，且不含本次改动），不入库。
+# 机器人本体的改动在虚拟机 ~/rbot 里，推 GitHub 前请先导出。
+rbot/
